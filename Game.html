@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head> 
+        <title> Battle Ship Game</title>
+        <style>
+            body {background-image: url(Ships.jpg);
+                font-family: sans-serif;
+                width: 80%;
+                margin: auto;
+                font-size: 20px;      
+            }
+            
+           div.box {
+               border-radius: 25px;
+               background-color: black;
+               border: 2px solid black; 
+               opacity: 0.6;
+               text-align: center;
+               width: 60%;
+               margin: auto;
+               padding: 10px;
+               align-content: center;
+            }
+            
+            p 
+            {
+                margin: 5%;
+                font-weight: bold;
+                color: white;
+            }
+            
+            h1{
+                text-align: center;
+            }
+            
+            td{
+            width: 20px;
+            height: 20px;
+            outline-style: solid;
+            outline-width:1px; 
+            background-color: white;
+        }
+        
+        </style>
+    
+    </head>
+
+<body>
+    
+    <h1> Welcome to a Battle Ship Game</h1>
+    <br />
+   <div class="box"> <p> Please enter a number between (0-20) to guess where the ship is at <br />
+       
+    <input type="number" id="UserInput" placeholder="Please enter a number" />
+       
+    <button id="Shoot"> Click to Fire!!</button></p>
+       
+       <table widht="30%"/>
+        <tr>
+        
+            <td id="one"> </td>
+            <td id="two"></td>
+            <td id="three"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        
+        </tr>
+       <p id="MassageBox"> </p>
+    </div>
+    
+    
+    <script src="GameScript.js"> </script>
+    
+    </body>
+ 
+
+
+
+</html>
